@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+
+	<Registration>	
+		<SignUpLink><![CDATA[//a[contains(text(), 'Need an account')]]]></SignUpLink>
+		<GetStartedBtn><![CDATA[//button[text()='Get Started']]]></GetStartedBtn>
+		<Registrationpageheader><![CDATA[//*[contains(text(), 'Join now to experience a new way to work')]]]></Registrationpageheader>
+		<FirstName><![CDATA[//input[@name='firstName']]]></FirstName>
+		<LastName><![CDATA[//input[@name='lastName']]]></LastName>
+		<WorkEmail><![CDATA[//input[@name='email']]]></WorkEmail>
+		<CreatePassword><![CDATA[//input[@name='password']]]></CreatePassword>
+		<ConfirmPassword><![CDATA[//input[@name='confirmPassword']]]></ConfirmPassword>
+		<confirmationmessage><![CDATA[//*[contains(text(), 'We just sent you an email')]]]></confirmationmessage>
+	</Registration>
+	
+	<LoginPage>
+	   <SigninBtn><![CDATA[//button[text()='Sign in']]]></SigninBtn>
+	   <WorkEmail><![CDATA[//input[@name='email']]]></WorkEmail>
+	   <Password><![CDATA[//input[@name='password']]]></Password>
+	</LoginPage>
+	
+	<NavigationBar>
+	 <ProfileIcon><![CDATA[//*[contains(@class, 'rt-top-navbar__profile')]]]></ProfileIcon>
+	 <SideNav><![CDATA[//*[@id='side-menu']//span[text()='@variable']]]></SideNav>
+	
+	</NavigationBar>
+	
+	<Projects>
+	
+	   <AddProjectBtn><![CDATA[//*[contains(@class, 'title-action')]//a[contains(text(), 'Add Project')]]]></AddProjectBtn>
+	   <SuggestedProjectBtn><![CDATA[//*[contains(@class, 'title-action')]//a[contains(text(), 'Suggested Projects')]]]></SuggestedProjectBtn>
+	   <NameField><![CDATA[//*[contains(@class, 'form-control') and @name='abstract']]]></NameField>
+	   <DescriptionField><![CDATA[//*[contains(@class, 'form-control') and @name='description']]]></DescriptionField>
+	   <CreateBtn><![CDATA[//a[text()='Create']]]></CreateBtn>
+	   <AddProjectDlg><![CDATA[//div[contains(@class, 'rt-modal__title')]/span[text()='Create a Project']]]></AddProjectDlg>
+	   <ProjectType><![CDATA[//div[@class="modal-content"]//span[text()='@variable']]]></ProjectType>
+	   <AddMemberButton><![CDATA[//a[contains(@class, 'rt-member__action') and @tooltip='Add members']/i]]></AddMemberButton>
+	   <MemberName><![CDATA[//input[@placeholder="Enter user name or email"]]]></MemberName>
+	   <PlusIcon><![CDATA[//div[contains(@class, 'add-button') and contains(text(), '+')]]]></PlusIcon>
+	   <addedmember><![CDATA[//a[contains(text(), '@variable')]]]></addedmember>
+	   <Suggitem><![CDATA[//ul[@class='suggestion-list']//span[contains(text(), '@variable')]]]></Suggitem>
+	   <DoneBtn><![CDATA[//button[text()='Done']]]></DoneBtn>
+	   <confirmationmessage><![CDATA[//div[@class="cg-notify-message-template"]//span[contains(text(), 'Your team is updated')]]]></confirmationmessage>
+	   <AllProjectDrpdwnLink><![CDATA[//a[@class="dropdown-toggle"]//*[contains(text(), 'All Projects')]]]></AllProjectDrpdwnLink>
+	   <DroDownMenu><![CDATA[//ul[@class='dropdown-menu']//a[contains(text(), '@variable')]]]></DroDownMenu>
+	   <ProjectTitle><![CDATA[//div[@class="rt-project-tile"]//span[contains(text(), '@variable') and contains(@class, 'project-tile__title')]]]></ProjectTitle>
+	   <NavTab><![CDATA[//*[@class='nav nav-tabs']//a[contains(text(), '@variable')]]]></NavTab>
+	</Projects>
+	
+	<Disscussion>
+	     <MsgTxtFld><![CDATA[//div[@placeholder="What's new with this project?"]]]></MsgTxtFld>
+	     <EditMsgField><![CDATA[//div[@placeholder="What's new with this project?"]/p]]></EditMsgField>
+	     <SuggstionList><![CDATA[//ul[@class='list-group user-search mentio-menu-bg']//span[contains(text(), '@variable')]]]></SuggstionList>
+	     <PostBtn><![CDATA[//button[contains(@class, 'rt-btn--primary')]//*[text()='Post']]]></PostBtn>
+	     <MessageSent><![CDATA[//div[@class='message-main__body ng-binding']//*[contains(text(), '@message')]/a[text()='@username']]]></MessageSent>
+	
+	</Disscussion>
+</Locators>

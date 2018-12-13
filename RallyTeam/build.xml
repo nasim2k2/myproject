@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project [
+]>
+
+<project name="rallyteamProject" basedir=".">  
+
+<!-- ========== Initialize Properties =================================== -->
+    <property environment="env"/>
+    <property file="./build.properties"/>
+       <target name="setClassPath" unless="test.classpath">
+        <path id="classpath_jars">
+            <fileset dir="${ws.home}/libs" includes="*.jar"/>
+        </path>
+        <pathconvert pathsep=":" 
+            property="test.classpath" 
+            refid="classpath_jars"/>
+    </target>
+
+    <target name="init" depends="setClassPath">
+        <tstamp>
+            <format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+        </tstamp>
+        <condition property="ANT" 
+            value="${env.ANT_HOME}/bin/ant.bat" 
+            else="${env.ANT_HOME}/bin/ant">
+                    <os family="windows" />
+        </condition>
+        <taskdef name="testng" classpath="${test.classpath}"
+             classname="org.testng.TestNGAntTask" /> 
+    </target>
+  
+    <!-- clean -->
+    <target name="clean">
+        <delete dir="${test.dest}"/>
+    </target>
+
+    <!-- compile -->
+    <target name="compile" depends="init, clean" > 
+		<delete includeemptydirs="true" quiet="true">
+            <fileset dir="${test.dest}" includes="**/*"/>
+		</delete>
+        <echo message="making directory..."/>
+		<mkdir dir="${test.dest}"/>
+        <!-- <echo message="classpath: ${test.classpath}"/> -->
+        <echo message="compiling..."/>
+         <javac
+            debug="true" 
+            destdir="${test.dest}" 
+            includes="*/*.java" 
+           	srcdir="${test.src}:${test.srcLib}" 
+            target="1.6" 
+            classpath="${test.classpath}"  
+        ></javac>
+	
+
+
+      </target>
+
+    <!-- bin -->
+    <target name="build" depends="init">
+    </target>
+
+    <!-- run -->	
+	
+	<target name="RallyTeamTest" depends="compile,init">
+        <testng classpath="${test.classpath}:${test.dest}"  suitename="Registration TestCase">	
+        	<reporter classname="org.testng.reporters.XMLReporter">
+        	       <property name="generateTestResultAttributes" value="true"/>
+        	    </reporter> 
+            <xmlfileset dir="${ws.home}/Src/com/rallyteam/TestRun"  includes="RallyTeamTestSuit.xml"/>			
+        </testng>   
+    </target>
+
+	
+	
+    <!-- ****************** targets not used ****************** -->
+ 
+</project>

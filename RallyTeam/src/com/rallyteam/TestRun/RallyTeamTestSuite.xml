@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rallyteam Testsuite" verbose="3"  parallel="none" thread-count="2">   
+   <test name="Registration Testcases">
+    <classes>
+      <class name="com.rallyteam.Tests.RallyTeamTest">
+        <methods>
+      		<include name= "testRegistrationProcess"/>  
+      		<include name= "testCreateAProjectAndAddAnUserIntoProject"/>   
+      		<include name= "testPostingAMessageInTheDiscussionFeed"/>  	   		
+        </methods>
+      </class>
+    </classes>
+ </test>
+ </suite>

@@ -1,0 +1,26 @@
+[debug (1/22/15 5:07:04 PM)] RunSetup: SikuliX Setup Build: 1.0.1 12NOV2013120000
+[debug (1/22/15 5:07:04 PM)] RunSetup: ... starting with no args given
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\ProgramData\Oracle\Java\javapath
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files\Common Files\Microsoft Shared\Windows Live
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Windows\system32
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Windows
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Windows\System32\Wbem
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Windows\System32\WindowsPowerShell\v1.0\
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\Intel\Services\IPT\
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files\Dell\Dell Data Protection\Access\Advanced\Wave\Gemalto\Access Client\v5\
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\Windows Live\Shared
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files\Perforce
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\Java\jre7\bin
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\Java\jdk1.6.0_32\bin
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\Java\jre7\bin\client
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath:  C:\Python27\Scripts
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath:  C:\Program Files (x86)\Java\jre7\bin\client
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: C:\Program Files (x86)\Sikuli X\libs
+[debug (1/22/15 5:07:04 PM)] RunSetup: syspath: bin
+[debug (1/22/15 5:07:04 PM)] RunSetup: Not on syspath: C:\Users\lzhang\workspace\AdaptiveInsights\lib\libs --- Extracting runSetup.cmd.
+[debug (1/22/15 5:07:04 PM)] ResourceLoaderBasic: export: Trying to access package
+[debug (1/22/15 5:07:04 PM)] ResourceLoaderBasic: export: Accessing jar: file:/C:/Users/lzhang/workspace/AdaptiveInsights/lib/sikuli-setup.jar
+[debug (1/22/15 5:07:04 PM)] ResourceLoaderBasic: export: Found 1 Files in Commands/windows/runSetup.cmd

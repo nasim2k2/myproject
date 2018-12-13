@@ -1,0 +1,139 @@
+Aug 05,2016 14:32:24 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 14:32:25 [info]  Verified Sign Up Now button is displayed
+Aug 05,2016 14:32:25 [info]  Clicked Sign Up button
+Aug 05,2016 14:32:29 [info]  Verified Registration user is at sign up page
+Aug 05,2016 14:32:29 [info]  Entered TestQAFirst1 into First name field 
+Aug 05,2016 14:32:30 [info]  Entered TestQALast1 into Last name field 
+Aug 05,2016 14:32:30 [info]  Entered TestQAFirst1@gmail.com into Last name field 
+Aug 05,2016 14:32:31 [info]  Entered 360@Logica into Password field 
+Aug 05,2016 14:32:31 [info]  Entered 360@Logica into Confirm Password field 
+Aug 05,2016 14:32:31 [info]  User click on the 'Get Started' Button
+Aug 05,2016 14:32:36 [info]  verify the success message of registration
+Aug 05,2016 14:32:56 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 14:33:05 [info]  Login Into the application
+Aug 05,2016 14:33:10 [info]  Click on the side navigation link 'Project'
+Aug 05,2016 14:33:14 [info]  Click on the Add Project button at projects page
+Aug 05,2016 14:33:15 [info]  Verify the add project form dialog
+Aug 05,2016 14:33:16 [info]  Entered TestProject1 into Project name field 
+Aug 05,2016 14:33:16 [info]  Entered Test Project for Automation into Project description field 
+Aug 05,2016 14:33:16 [info]  Click on the create button at add project form
+Aug 05,2016 14:33:17 [info]  select project type as 'Just for me' option
+Aug 05,2016 14:33:28 [info]   Click on the add new member button into the project
+Aug 05,2016 14:33:31 [info]  Enter text into member field
+Aug 05,2016 14:33:42 [info]  select user from suggestion
+Aug 05,2016 14:33:42 [info]  click plus icon at add member page
+Aug 05,2016 14:33:43 [info]  Verify the member is added on add member page
+Aug 05,2016 14:33:43 [info]  Click 'Done' button at Add member page
+Aug 05,2016 14:33:52 [info]  user navigate to 'Projects' page by clicking on side nav
+Aug 05,2016 14:33:55 [info]  Select option form  project menu as 'My Project'
+Aug 05,2016 14:34:02 [info]  Click on newly created project
+Aug 05,2016 14:34:32 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 14:34:49 [info]  Login Into the application
+Aug 05,2016 14:34:55 [info]  Click on the side navigation link 'Project'
+Aug 05,2016 14:34:57 [info]  Select option form  project menu as 'My Project'
+Aug 05,2016 14:35:04 [info]  Click on newly created project
+Aug 05,2016 15:00:22 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 15:00:27 [info]  Verified Sign Up Now button is displayed
+Aug 05,2016 15:00:27 [info]  Clicked Sign Up button
+Aug 05,2016 15:00:31 [info]  Verified Registration user is at sign up page
+Aug 05,2016 15:00:31 [info]  Entered TestQAFirst39 into First name field 
+Aug 05,2016 15:00:32 [info]  Entered TestQALast39 into Last name field 
+Aug 05,2016 15:00:32 [info]  Entered TestQAFirst39@gmail.com into Last name field 
+Aug 05,2016 15:00:32 [info]  Entered 360@Logica into Password field 
+Aug 05,2016 15:00:32 [info]  Entered 360@Logica into Confirm Password field 
+Aug 05,2016 15:00:33 [info]  User click on the 'Get Started' Button
+Aug 05,2016 15:00:40 [info]  verify the success message of registration
+Aug 05,2016 15:27:05 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 15:27:09 [info]  Verified Sign Up Now button is displayed
+Aug 05,2016 15:27:09 [info]  Clicked Sign Up button
+Aug 05,2016 15:27:13 [info]  Verified Registration user is at sign up page
+Aug 05,2016 15:27:13 [info]  Entered TestQAFirst40 into First name field 
+Aug 05,2016 15:27:14 [info]  Entered TestQALast40 into Last name field 
+Aug 05,2016 15:27:15 [info]  Entered TestQAFirst40@gmail.com into Last name field 
+Aug 05,2016 15:27:15 [info]  Entered 360@Logica into Password field 
+Aug 05,2016 15:27:15 [info]  Entered 360@Logica into Confirm Password field 
+Aug 05,2016 15:27:16 [info]  User click on the 'Get Started' Button
+Aug 05,2016 15:27:21 [info]  verify the success message of registration
+Aug 05,2016 15:28:45 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 15:28:50 [info]  Verified Sign Up Now button is displayed
+Aug 05,2016 15:28:51 [info]  Clicked Sign Up button
+Aug 05,2016 15:28:55 [info]  Verified Registration user is at sign up page
+Aug 05,2016 15:28:55 [info]  Entered TestQAFirst23 into First name field 
+Aug 05,2016 15:28:56 [info]  Entered TestQALast23 into Last name field 
+Aug 05,2016 15:28:56 [info]  Entered TestQAFirst23@gmail.com into Last name field 
+Aug 05,2016 15:28:56 [info]  Entered 360@Logica into Password field 
+Aug 05,2016 15:28:57 [info]  Entered 360@Logica into Confirm Password field 
+Aug 05,2016 15:28:57 [info]  User click on the 'Get Started' Button
+Aug 05,2016 15:29:02 [info]  verify the success message of registration
+Aug 05,2016 15:31:17 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 15:31:21 [info]  Verified Sign Up Now button is displayed
+Aug 05,2016 15:31:22 [info]  Clicked Sign Up button
+Aug 05,2016 15:31:26 [info]  Verified Registration user is at sign up page
+Aug 05,2016 15:31:26 [info]  Entered TestQAFirst48 into First name field 
+Aug 05,2016 15:31:27 [info]  Entered TestQALast48 into Last name field 
+Aug 05,2016 15:31:28 [info]  Entered TestQAFirst48@gmail.com into Last name field 
+Aug 05,2016 15:31:28 [info]  Entered 360@Logica into Password field 
+Aug 05,2016 15:31:28 [info]  Entered 360@Logica into Confirm Password field 
+Aug 05,2016 15:31:28 [info]  User click on the 'Get Started' Button
+Aug 05,2016 15:31:33 [info]  verify the success message of registration
+Aug 05,2016 15:31:58 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 15:32:14 [info]  Login Into the application
+Aug 05,2016 15:32:20 [info]  Click on the side navigation link 'Project'
+Aug 05,2016 15:32:23 [info]  Click on the Add Project button at projects page
+Aug 05,2016 15:32:24 [info]  Verify the add project form dialog
+Aug 05,2016 15:32:24 [info]  Entered TestProject48 into Project name field 
+Aug 05,2016 15:32:25 [info]  Entered Test Project for Automation into Project description field 
+Aug 05,2016 15:32:25 [info]  Click on the create button at add project form
+Aug 05,2016 15:32:25 [info]  select project type as 'Just for me' option
+Aug 05,2016 15:32:36 [info]   Click on the add new member button into the project
+Aug 05,2016 15:32:39 [info]  Enter text into member field
+Aug 05,2016 15:32:50 [info]  select user from suggestion
+Aug 05,2016 15:32:51 [info]  click plus icon at add member page
+Aug 05,2016 15:32:52 [info]  Verify the member is added on add member page
+Aug 05,2016 15:32:52 [info]  Click 'Done' button at Add member page
+Aug 05,2016 15:33:02 [info]  user navigate to 'Projects' page by clicking on side nav
+Aug 05,2016 15:33:05 [info]  Select option form  project menu as 'My Project'
+Aug 05,2016 15:33:11 [info]  Click on newly created project
+Aug 05,2016 15:33:16 [info]  Verify the member is added in project at project detail page
+Aug 05,2016 15:33:44 [info]  
+*****************************************************************************
+Execution Started of Test Class com.rallyteam.Tests.RallyTeamTest >> SetUp
+*****************************************************************************
+
+Aug 05,2016 15:33:59 [info]  Login Into the application
+Aug 05,2016 15:34:05 [info]  Click on the side navigation link 'Project'
+Aug 05,2016 15:34:08 [info]  Select option form  project menu as 'My Project'
+Aug 05,2016 15:34:14 [info]  Click on newly created project
+Aug 05,2016 15:34:24 [info]  Navigated to to Discussion tab
